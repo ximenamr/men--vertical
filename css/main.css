@@ -1,0 +1,41 @@
+
+
+/*le damos la misma fuente a todo el contenido de la pg.*/
+body{
+  font-family: sans-serif;
+}
+/*el nav debe de ser del ancho de su etiqueta padre body*/
+nav{
+
+
+  background-color: #2e2e2a;
+  color: #fff;
+
+}
+/*se quitan viñetas*/
+ul{
+  list-style: none;
+  padding:0;
+  margin: 0;
+  line-height: 50px;
+
+
+}
+
+li{
+  width: 100px;
+  display: inline-block;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+  display: block;
+
+}
+
+a:hover{
+  background: #f9a91a;
+  color: #000;
+}
