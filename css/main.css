@@ -4,37 +4,32 @@
 body{
   font-family: sans-serif;
 }
-/*el nav debe de ser del ancho de su etiqueta padre body*/
+/*le damos un color de fondo y de letras a la barra de navegación*/
 nav{
-
-
   background-color: #2e2e2a;
   color: #fff;
-
 }
-/*se quitan viñetas*/
+
 ul{
-  list-style: none;
+  list-style: none;/*se quitan viñetas*/
   padding:0;
   margin: 0;
-  line-height: 50px;
-
-
+  line-height: 50px;/*se le da espacio esntre líneas*/
 }
-
+/*aquí estamos dandole ancho, cambiando su naturaleza de blobque y  centrando el texto.*/
 li{
   width: 100px;
   display: inline-block;
   text-align: center;
 }
-
+/*le quitamos el subrayado a los links, le damos color y configuramos su naturaleza inline a block */
 a{
   text-decoration: none;
   color: #fff;
   display: block;
 
 }
-
+/*le decimos que cuando el cursor este posicionado en cualquier link el fondo y las letras cambien  de color*/
 a:hover{
   background: #f9a91a;
   color: #000;
